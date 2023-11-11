@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultipleLinearRegression", "MultipleLinearRegression.pyproj", "{D35A9524-3540-4B36-AD35-D1C65BC1C6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35A9524-3540-4B36-AD35-D1C65BC1C6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35A9524-3540-4B36-AD35-D1C65BC1C6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA028851-731E-476A-852A-3DE13A92E038}
+	EndGlobalSection
+EndGlobal
