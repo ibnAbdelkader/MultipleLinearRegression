@@ -36,13 +36,13 @@ def main():
     plt.show()
     sns.heatmap(ds.corr(), annot = True, cmap = 'coolwarm')
     plt.show()
-    X_train,X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 100)
+    X_train,X_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 100)
     reg_model = linear_model.LinearRegression()
     reg_model = LinearRegression().fit(X_train, y_train)
     #Printing the model coefficients
     print('Intercept: ',reg_model.intercept_)
     # pair the feature names with the coefficients
-    list(zip(X, reg_model.coef_))
+    list(zip(x, reg_model.coef_))
     #Predicting the Test and Train set result 
     y_pred= reg_model.predict(X_test)  
     x_pred= reg_model.predict(X_train) 
